@@ -1,3 +1,14 @@
+#include <iostream> 
+#include <iomanip> 
+#include <cmath> 
+#include <cstdlib> 
+#include <ctime> 
+#include <fstream> 
+#include <string>
+#include <vector>
+using namespace std;
+int main(){
+
 Dict={'pass':'pass','Expresso':'30-60-40','Mocha':'10-70-20','Cappuccino':'40-30-70','Americano':'20-50-50'}
 ChoiceDict={'1':'Custom','2':'Expresso','3':'Mocha','4':'Cappuccino','5':'Americano'}
 CustomerDict={}
@@ -126,4 +137,6 @@ def printing():
     print(f"{'-'*64}")
 printing()
 money()
+return 0;
+}
 
